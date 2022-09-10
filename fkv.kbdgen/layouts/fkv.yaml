@@ -1,5 +1,5 @@
 displayNames:
-  'fkv': Kven language
+  'fkv': Kveenin kieli
   en: Kven language
 
 modes:
@@ -822,15 +822,15 @@ transforms:
     U: Ũ
 
 strings:
-  space: gaska
-  return: "linnjá\u00ADmolsun"
+  space: Väli
+  return: "Rivin\u00ADvaihto"
 
 targets:
   win:
-    locale: fkv-Latn-US
+    locale: fkv-Latn-NO
   chrome:
-    locale: "en"
-    xkbLayout: "en"
+    locale: "fi"
+    xkbLayout: "fi"
   ios:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fkv?channel=nightly&platform=mobile
     spellerPath: fkv.bhfst
