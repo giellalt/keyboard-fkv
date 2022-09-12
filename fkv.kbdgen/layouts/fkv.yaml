@@ -837,3 +837,4 @@ targets:
   android:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fkv?channel=nightly&platform=mobile
     spellerPath: fkv.bhfst
+
