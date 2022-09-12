@@ -829,8 +829,8 @@ targets:
   win:
     locale: fkv-Latn-NO
   chrome:
-    locale: "fi"
-    xkbLayout: "fi"
+    locale: "no"
+    xkbLayout: "no"
   ios:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fkv?channel=nightly&platform=mobile
     spellerPath: fkv.bhfst
