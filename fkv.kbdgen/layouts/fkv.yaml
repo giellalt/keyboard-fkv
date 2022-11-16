@@ -826,6 +826,14 @@ strings:
   space: väli
   return: "rivin\u00ADvaihto"
 
+space:
+  mac:
+    caps: '\u{A0}'
+    alt: '\u{A0}'
+    alt+shift: '\u{A0}'
+    caps+alt: '\u{A0}'
+    cmd+alt: '\u{A0}'
+
 targets:
   win:
     locale: fkv-Latn-NO
