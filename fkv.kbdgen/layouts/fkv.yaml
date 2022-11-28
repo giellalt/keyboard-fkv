@@ -1,6 +1,7 @@
 displayNames:
   fkv: Kveenin kieli
   en: Kven language
+
 android:
   config:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fkv?channel=nightly&platform=mobile
@@ -25,6 +26,7 @@ android:
         Á W E R T Y U I O P Å
         A S D F G H J K L Ö Ä
         \s{shift} Z X C V B N M Đ \s{backspace}
+
 iOS:
   config:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fkv?channel=nightly&platform=mobile
@@ -100,6 +102,7 @@ iOS:
         \s{spacer:1.5} [ ] { } # % ^ * + = \ | ~
         \s{spacer:1.75} - / : ; ( ) kr & @ $ £ \s{return:1.75}
         \s{spacer:3.25} … . , ? ! ' " _ € \s{spacer:2.25}
+
 macOS:
   primary:
     layers:
@@ -172,6 +175,7 @@ macOS:
     alt+shift: ['ʔ', '№']
     cmd+alt: ['¸', 'ƒ', '˙']
     alt+caps: ['-', '¸', 'ƒ', 'ˀ', 'ˆ', 'ˇ', '˘', '˙', '˚', '˝']
+
 windows:
   config:
     locale: fkv-Latn-NO
@@ -217,6 +221,7 @@ windows:
     caps+shift: ['`']
     alt: ['~', '¨', '´']
     alt+shift: ['^', 'ˇ']
+
 chromeOS:
   config:
     locale: 'no'
@@ -253,6 +258,7 @@ chromeOS:
               Q     Â     \u{0} \u{0} Ŧ     \u{0} \u{0} Ï     Õ     \u{0} \u{0} ´
               Á     Š     ß     Ǥ     Ǧ     Ȟ     \u{0} Ǩ     \u{0} Ø     Æ     \u{0}
         \u{0} Ž     \u{0} Č     Ǯ     Ʒ     Ŋ     \u{0} \u{0} \u{0} \u{0}
+
 transforms:
   '\u{A0}\u{330}':
     ' ': \u{A0}\u{330}
@@ -803,6 +809,7 @@ transforms:
     O: Õ
     u: ũ
     U: Ũ
+
 longpress:
   A: Ä   À Â Ã Ā Ạ
   Á: Q
@@ -849,7 +856,7 @@ longpress:
   '.': ', ; : ? ! ¿ ¡'
   '"': „ “ ” « »
   "'": ‚ ‘ ’
+
 keyNames:
   space: väli
   return: rivin\u00ADvaihto
-
