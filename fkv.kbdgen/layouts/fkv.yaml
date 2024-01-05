@@ -458,12 +458,13 @@ transforms:
     Z: Z\u{304}
     æ: ǣ
     Æ: Ǣ
-    '´':
-      ' ': '-´'
-      a: ā́
-      e: ḗ
-      A: Ā́
-      E: Ḗ
+# The following is not yet supported by the Rust rewrite of kbdgen:
+#    '´':
+#      ' ': '-´'
+#      a: ā́
+#      e: ḗ
+#      A: Ā́
+#      E: Ḗ
   ˘:
     ' ': ˘
     a: ă
