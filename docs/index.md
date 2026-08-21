@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Documentation for the Kven language keyboards
 
 ## Layouts
